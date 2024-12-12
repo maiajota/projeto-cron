@@ -1,0 +1,32 @@
+# Dependências de pacotes
+/node_modules/
+
+# Arquivos compilados pelo TypeScript
+/dist/
+/build/
+
+# Arquivos gerados pelo TypeScript
+*.tsbuildinfo
+
+# Diretórios de cache de ferramentas
+/.vite/
+/.webpack/
+/parcel-cache/
+/.yarn/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema de cache do npm
+.npm/
+
+# Arquivos temporários de sistema
+.DS_Store   # Para MacOS
+Thumbs.db   # Para Windows
+
+# Outras pastas e arquivos que você pode querer ignorar:
+*.log
+*.tmp
