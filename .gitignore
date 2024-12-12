@@ -30,3 +30,5 @@ Thumbs.db   # Para Windows
 # Outras pastas e arquivos que você pode querer ignorar:
 *.log
 *.tmp
+
+dist/
