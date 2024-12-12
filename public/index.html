@@ -5,11 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../src/styles/index.css">
 </head>
-
+<!-- projetoCron.home.usarCronTeste() -->
 <body>
-    <h1>Página</h1>
-    <script src="../wwwroot/dist/home.entry.js"></script>
+    <main class="pagina-container">
+        <form class="formulario-container">
+            <h1 class="formulario-titulo">
+                <span>À cada minuto</span>
+                <input class="formulario-input" type="text" autocomplete="off" placeholder="*" name="minuto"/>
+                <span>da hora</span>
+                <input class="formulario-input" type="text" autocomplete="off" placeholder="*" name="hora"/>
+                <span>do dia do mês</span>
+                <input class="formulario-input" type="text" autocomplete="off" placeholder="*" name="diaMes"/>
+                <span>e do dia da semana</span>
+                <input class="formulario-input" type="text" autocomplete="off" placeholder="*" name="diaSemana"/>
+                <span>do mês</span>
+                <input class="formulario-input" type="text" autocomplete="off" placeholder="*" name="mes"/>
+            </h1>
+        </form>
+        <p class="texto-resultado">À todo minuto</p>
+    </main>
+<script src="../wwwroot/dist/home.entry.js"></script>
 </body>
-
 </html>

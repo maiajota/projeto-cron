@@ -1,3 +1,54 @@
-body {
-    background-color: rgb(267, 267, 267);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+body,html {
+    background-color: #262626;
+    font-family: "Roboto Mono", monospace;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.pagina-container {
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.formulario-container {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-titulo {
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.formulario-input {
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.texto-resultado {
+    margin: 20px auto;
+    width: fit-content;
 }
